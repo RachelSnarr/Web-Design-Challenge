@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<nav class="header-div">
+    <ul>
+        <li class="heading button">Weather Analysis</li>
+        <li class="button"><a class="button" href="index.html">Summary</a></li>
+        <li class="button"><a class="button" href="comparison.html">Comparison</a></li>
+        <li class="button"><a class="button" href="data.html">Data</a></li>
+        <li class="dropdown button">Plots &#x2630
+            <div class="dropdown-content">
+                <a href="cloud.html">Cloudiness</a>
+                <a href="humid.html">Humidity</a>
+                <a href="temp.html">Temperature</a>
+                <a href="wind.html">Wind</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div class="comparison-container"> 
+        <table class="data-container">
+          <caption>Comparisons x Latitude</caption>
+          <tr>
+            <td><img class="viz" src="visualizations/Cloud_vs_Lat.png"></td>
+            <td><img class="viz" src="visualizations/Temp_vs_Lat.png"></td>
+          </tr>
+          <tr>
+            <td><img class="viz" src="visualizations/Humid_vs_Lat.png"></td>
+            <td><img class="viz" src="visualizations/Wind_vs_Lat.png"></td>
+          </tr>
+        </table>
+      </div>
+
+</body>
+
+</html>

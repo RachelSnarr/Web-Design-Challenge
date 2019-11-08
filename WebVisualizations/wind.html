@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<nav class="header-div">
+    <ul>
+        <li class="heading button">Weather Analysis</li>
+        <li class="button"><a class="button" href="index.html">Summary</a></li>
+        <li class="button"><a class="button" href="comparison.html">Comparison</a></li>
+        <li class="button"><a class="button" href="data.html">Data</a></li>
+        <li class="dropdown button">Plots &#x2630
+            <div class="dropdown-content">
+                <a href="cloud.html">Cloudiness</a>
+                <a href="humid.html">Humidity</a>
+                <a href="temp.html">Temperature</a>
+                <a href="wind.html">Wind</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="comparison-container">
+        <h1>Wind Speed x Latitude</h1>
+        <div>
+            <img src="visualizations/Temp_vs_Lat.png">
+        </div>
+        <p>
+                When analyzing wind speed against latitude, higher latitudes seem to trend towards lower wind speeds. 
+                While lower latitudes also show low wind speeds, when latitude approaches the extreme low is the only time the wind speeds increase to above 30 mph. 
+                The highest wind speeds corresponding to extreme low latitudes most likely relates to the amount of ocean/water vs land mass in these areas of the planet. 
+                With a higher percentage of the earth surface in these areas being water, there are fewer obstructions to reduce the wind speed.
+        </p>
+    </div>
+    
+    <div class="side-container"> 
+        <table class="tables">
+            <caption>Visualizations</caption>
+            <tr>
+                <td><img class="viz" src="visualizations/Cloud_vs_Lat.png"></td>
+                <td><img class="viz" src="visualizations/Temp_vs_Lat.png"></td>
+            </tr>
+            <tr>
+                <td><img class="viz" src="visualizations/Humid_vs_Lat.png"></td>
+                <td><table class="selected"><tr><td><img class="viz" src="visualizations/Wind_vs_Lat.png"></td></tr></table></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>

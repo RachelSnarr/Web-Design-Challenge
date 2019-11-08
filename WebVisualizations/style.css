@@ -1,0 +1,200 @@
+body {
+  background-color: #eee;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color:#fff;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: transparent; 
+  color: #02b4a5;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding:10px;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width:100px;
+}
+  
+.button:hover {
+  border-color: #bdbdbd; 
+  color:#006d64;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding:10px;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width:100px;
+}
+
+div.header-div {
+  font-size: 16px;
+  text-align: center;
+  display:inline-block;
+}
+
+.heading {
+  color: #fff;
+  background-color: #02b4a5;
+  height: 30px;
+  width: auto;
+  padding: 10px;
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.heading:hover {
+  color: #fff;
+  background-color: #02b4a5;
+  height: 30px;
+  width: auto;
+  padding: 10px;
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: default;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #eee;
+  min-width: 80px;
+  z-index: 1;
+  position: absolute;
+}
+
+.dropdown-content a {
+  color: #02b4a5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #eee;
+  box-shadow: 0px 8px 16px 0px #333;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}
+
+.main {
+  display: block;
+  background-color: #fff;
+  float: left;
+  height: 800 px;
+  min-width: 500px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.side-container {
+  background-color: #fff;
+  content: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.main-data {
+  height: 250px;
+  float: left;
+}
+
+h1 {
+  font-size: 40px;
+  color: #02b4a5;
+  margin-left: 10px;
+}
+
+caption {
+  font-size: 30px;
+  color: #02b4a5;
+  font-weight: bold;
+  text-align:left;
+  padding:20px;
+  background-color: #fff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.container {
+  padding: 20px;
+  background-color: #eee;
+  display: inline-flex;
+}
+
+.viz {
+  width: 100%;
+}
+
+.comparison-container {
+  background-color: #fff;
+  content: center;
+  display: block;
+  float: left;
+  height: 800 px;
+  min-width: 500px;
+  padding: 20px;
+}
+
+.dataframe {
+  font-size: 11pt; 
+  font-family: Arial;
+  border-collapse: collapse; 
+  border: 1px solid silver;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.dataframe td, th {
+  padding: 5px;
+}
+
+.dataframe tr:nth-child(even) {
+  background: #E0E0E0;
+}
+
+.dataframe tr:hover {
+  background: #c0c0c0;
+  cursor: pointer;
+}
+
+.data-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.selected {
+  background-color: #02b4a5;
+  padding: 5px;
+}
